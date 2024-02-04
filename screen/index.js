@@ -4,7 +4,7 @@ import Login from "./Login";
 import Profile from "./Profile";
 import Register from "./Register";
 import Saved from "./Saved";
-import welcome from "./welcome";
+import welcome from "./Welcome";
 
 
 export {

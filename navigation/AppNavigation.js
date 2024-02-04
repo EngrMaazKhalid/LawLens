@@ -1,16 +1,16 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import { Welcome, Login, Register, Home, Chat } from '../screens'
+import { Welcome, Login, Register, Home, Chat } from '../screen'
 import { NavigationContainer } from '@react-navigation/native'
-import BottomTabNavigation from './BottomTabNavigation'
+// import BottomTabNavigation from './BottomTabNavigation'
 
-const stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator();
 
 
 const AppNavigation = () => {
   return (
     <NavigationContainer>
-    <stack.Navigator>
-        <stack.Screen 
+    <Stack.Navigator>
+        <Stack.Screen 
             name="Welcome"
                     component={Welcome}
                     options={{
@@ -33,7 +33,7 @@ const AppNavigation = () => {
                 />
                 <Stack.Screen
                     name="BottomTabNavigation"
-                    component={BottomTabNavigation}
+                    // component={BottomTabNavigation}
                     options={{
                         headerShown: false,
                     }}
@@ -45,7 +45,7 @@ const AppNavigation = () => {
                         headerShown: false,
                     }}
                 />
-    </stack.Navigator>
+    </Stack.Navigator>
     </NavigationContainer>
   )
 }

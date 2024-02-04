@@ -6,6 +6,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context'
 import {useFonts} from 'expo-font'
 import { useCallback } from 'react';
 import { FONTS } from './constants';
+import AppNavigation from './navigation/AppNavigation';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -23,16 +24,9 @@ export default function App() {
     }
   return (
  <SafeAreaProvider onLayout={onLayoutRootView}>
-
+<AppNavigation />
+<Text>hello</Text>
  </SafeAreaProvider>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
