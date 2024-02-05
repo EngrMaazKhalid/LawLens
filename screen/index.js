@@ -4,7 +4,8 @@ import Login from "./Login";
 import Profile from "./Profile";
 import Register from "./Register";
 import Saved from "./Saved";
-import welcome from "./Welcome";
+// import welcome from "./Welcome";
+import Welcome from './Welcome'
 
 
 export {
@@ -14,5 +15,5 @@ export {
     Profile,
     Register,
     Saved,
-    welcome
+    Welcome
 }

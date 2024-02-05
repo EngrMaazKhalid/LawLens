@@ -15,7 +15,30 @@ export const  COLORS ={
     gray: 'F8F8F8',
     secondaryGray: '#808080',
 }
-
+export const  SIZES ={
+    // Global SIZES
+    base: 8,
+    font: 14,
+    radius: 30,
+    padding: 8,
+    padding2: 12,
+    padding3: 16,
+ 
+    // FONTS Sizes
+    largeTitle: 50,
+    h1: 30,
+    h2: 22,
+    h3: 20,
+    h4: 18,
+    body1: 30,
+    body2: 20,
+    body3: 16,
+    body4: 14,
+ 
+    // App Dimensions
+    width,
+    height,
+ }
 
 export const  FONTS ={
     // largeTitle: {
@@ -34,30 +57,7 @@ export const  FONTS ={
 }
 
 
-export const  SIZES ={
-   // Global SIZES
-   base: 8,
-   font: 14,
-   radius: 30,
-   padding: 8,
-   padding2: 12,
-   padding3: 16,
 
-   // FONTS Sizes
-   largeTitle: 50,
-   h1: 30,
-   h2: 22,
-   h3: 20,
-   h4: 18,
-   body1: 30,
-   body2: 20,
-   body3: 16,
-   body4: 14,
-
-   // App Dimensions
-   width,
-   height,
-}
 
 
  const  appTheme ={
